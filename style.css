@@ -1,0 +1,52 @@
+/* ligth blue color
+     hsl(228, 45%, 44%)
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+.qr-code {
+    width: 100%;
+    border-radius: 7px;
+}
+.p-container {
+    padding: 0 15px;
+}
+.bold {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+.grey {
+    margin: 0 0 30px 0;
+    font-size: 0.91em;
+    color: hsl(220, 15%, 55%);
+}
+p {
+    text-align: center;
+}
+.attribution {
+    margin-top: 30px;
+}
